@@ -5,7 +5,7 @@ import zipfile
 
 src_dir = 'src'
 
-zip_file = zipfile.ZipFile('track-stats.zip', 'w')
+zip_file = zipfile.ZipFile('essential-objectives.zip', 'w')
 with zip_file:
     for root, directories, files in os.walk(src_dir):
         for file in files:
