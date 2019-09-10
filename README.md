@@ -1,5 +1,5 @@
-# Track stats
-A simple datapack for tracking your minecraft worlds statistics
+# Essential objectives
+A simple datapack for tracking many useful objectives
 
 # Features:
-- Adds statistics for many in game triggers
+- Adds objective counters for many in game triggers
