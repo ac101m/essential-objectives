@@ -1,5 +1,5 @@
 ##
-# Update mining sub-module aggregates
+# Update Mining sub-module aggregates
 ##
 
 # ORE AGGREGATE

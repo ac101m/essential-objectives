@@ -1,5 +1,5 @@
 ##
-# Install mining sub-module
+# Install Mining sub-module
 ##
 
 # ORES - Base objectives

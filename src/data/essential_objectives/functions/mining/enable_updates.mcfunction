@@ -1,5 +1,5 @@
 ##
-# Enable actively processed mining objectives
+# Enable actively processed Mining objectives
 ##
 
 # Set the enable flag

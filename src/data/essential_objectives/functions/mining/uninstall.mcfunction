@@ -1,5 +1,5 @@
 ##
-# Remove objectives for mining sub-module
+# Remove objectives for Mining sub-module
 ##
 
 # ORES - Base objectives
