@@ -3,4 +3,4 @@
 ##
 
 # Set the enable flag
-scoreboard players set #eo_DummyPlayer eo_MiningEn 1
+scoreboard players set #eo_DummyPlayer eo_EnMining 1

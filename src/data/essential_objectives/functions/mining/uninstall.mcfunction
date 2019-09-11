@@ -23,4 +23,4 @@ scoreboard objectives remove eo_MineOre
 scoreboard objectives remove eo_MineStoneAll
 
 # Remove active processing flag
-scoreboard objectives remove eo_MiningEn
+scoreboard objectives remove eo_EnMining
