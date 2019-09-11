@@ -18,8 +18,12 @@ scoreboard objectives add eo_MineDiorite minecraft.mined:minecraft.diorite "Dior
 scoreboard objectives add eo_MineAndesite minecraft.mined:minecraft.andesite "Andesite mined"
 scoreboard objectives add eo_MineGranite minecraft.mined:minecraft.granite "Granite mined"
 
+# AGGREGATES - Actively processed objectives
+scoreboard objectives add eo_MineOre dummy "Ore mined"
+scoreboard objectives add eo_MineStoneAll dummy "Stone mined"
+
 # Actively processed objectives are disable by default
-# current state is respected on repeat calls to this function
+# Current state is respected by repeat calls to this function
 scoreboard objectives add eo_MiningTmp dummy
 execute store success #eo_DummyPlayer eo_MiningTmp run scoreboard objectives add eo_MiningEn dummy
 execute if score #eo_DummyPlayer eoMiningTmp matches 1 scoreboard players set #eo_DummyPlayer eo_MiningEn 0

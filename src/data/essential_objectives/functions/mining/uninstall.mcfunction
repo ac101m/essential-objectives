@@ -19,7 +19,8 @@ scoreboard objectives remove eo_MineAndesite
 scoreboard objectives remove eo_MineGranite
 
 # Remove actively processed objectives
-execute if score #eo_DummyPlayer eo_MiningEn matches 1 run function essential_objectives:mining/disable_active_objectives
+scoreboard objectives remove eo_MineOre
+scoreboard objectives remove eo_MineStoneAll
 
 # Remove active processing flag
 scoreboard objectives remove eo_MiningEn
