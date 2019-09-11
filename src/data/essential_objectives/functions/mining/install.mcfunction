@@ -25,6 +25,6 @@ scoreboard objectives add eo_MineStoneAll dummy "Stone mined"
 # Actively processed objectives are disable by default
 # Current state is respected by repeat calls to this function
 scoreboard objectives add eo_MiningTmp dummy
-execute store success #eo_DummyPlayer eo_MiningTmp run scoreboard objectives add eo_MiningEn dummy
-execute if score #eo_DummyPlayer eoMiningTmp matches 1 scoreboard players set #eo_DummyPlayer eo_MiningEn 0
+execute store success score #eo_DummyPlayer eo_MiningTmp run scoreboard objectives add eo_MiningEn dummy
+execute if score #eo_DummyPlayer eo_MiningTmp matches 1 run scoreboard players set #eo_DummyPlayer eo_MiningEn 0
 scoreboard objectives remove eo_MiningTmp
