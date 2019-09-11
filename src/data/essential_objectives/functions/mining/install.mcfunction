@@ -19,5 +19,8 @@ scoreboard objectives add eo_MineAndesite minecraft.mined:minecraft.andesite "An
 scoreboard objectives add eo_MineGranite minecraft.mined:minecraft.granite "Granite mined"
 
 # Actively processed objectives are disable by default
-scoreboard objectives add eo_MiningEn dummy
-scoreboard players set #eo_DummyPlayer eo_MiningEn 0
+# current state is respected on repeat calls to this function
+scoreboard objectives add eo_MiningTmp dummy
+execute store success #eo_DummyPlayer eo_MiningTmp run scoreboard objectives add eo_MiningEn dummy
+execute if score #eo_DummyPlayer eoMiningTmp matches 1 scoreboard players set #eo_DummyPlayer eo_MiningEn 0
+scoreboard objectives remove eo_MiningTmp
