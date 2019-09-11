@@ -2,9 +2,6 @@
 # Install all sub-modules
 ##
 
-# Print install message
-say [essential_objectives] Installing...
-
 # Create install flag and initialise to 0
 scoreboard objectives add eo_Installed dummy
 scoreboard players set #eo_DummyPlayer eo_Installed 0
