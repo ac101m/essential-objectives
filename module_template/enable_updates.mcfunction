@@ -3,4 +3,4 @@
 ##
 
 # Set the enable flag
-scoreboard players set #eo_DummyPlayer eo_<MODULE_NAME>En 1
+scoreboard players set #eo_DummyPlayer eo_En<MODULE_NAME> 1

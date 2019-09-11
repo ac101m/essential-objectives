@@ -7,4 +7,4 @@
 # Remove actively processed objectives
 
 # Remove active processing flag
-scoreboard objectives remove eo_<MODULE_NAME>En
+scoreboard objectives remove eo_En<MODULE_NAME>
