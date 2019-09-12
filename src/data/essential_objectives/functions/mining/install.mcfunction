@@ -18,9 +18,39 @@ scoreboard objectives add eo_MineDiorite minecraft.mined:minecraft.diorite "Dior
 scoreboard objectives add eo_MineAndesite minecraft.mined:minecraft.andesite "Andesite mined"
 scoreboard objectives add eo_MineGranite minecraft.mined:minecraft.granite "Granite mined"
 
+# DIRT-VARIOUS - Base objectives
+scoreboard objectives add eo_MineDirt minecraft.mined:minecraft.dirt "Dirt mined"
+scoreboard objectives add eo_MineGrass minecraft.mined:minecraft.grass "Grass mined"
+scoreboard objectives add eo_MineMycelium minecraft.mined:minecraft.mycelium "Mycelium mined"
+scoreboard objectives add eo_MinePodzol minecraft.mined:minecraft.podzol "Podzol mined"
+scoreboard objectives add eo_MineGrassPath minecraft.mined:minecraft.grass_path "Grass path mined"
+
+# DIRT-ISH
+scoreboard objectives add eo_MineGravel minecraft.mined:minecraft.gravel "Gravel mined"
+scoreboard objectives add eo_MineClay minecraft.mined:minecraft.clay "Clay mined"
+scoreboard objectives add eo_MineDirtC minecraft.mined:minecraft.coarse_dirt "Coarse dirt mined"
+
+# SAND
+scoreboard objectives add eo_MineSand minecraft.mined:minecraft.sand "Sand mined"
+scoreboard objectives add eo_MineRedSand minecraft.mined:minecraft.red_sand "Red sand mined"
+
+# MISC
+scoreboard objectives add eo_MineNethRack minecraft.mined:minecraft.netherrack "Netherrack mined"
+
+# TERRACOTTA - Base objectives (only naturally spawning included)
+scoreboard objectives add eo_MineTerr minecraft.mined:minecraft.terracotta "Terracotta mined"
+scoreboard objectives add eo_MineTerrY minecraft.mined:minecraft.yellow_terracotta "Yellow terracotta mined"
+scoreboard objectives add eo_MineTerrR minecraft.mined:minecraft.red_terracotta "Red terracotta mined"
+scoreboard objectives add eo_MineTerrO minecraft.mined:minecraft.orange_terracotta "Orange terracotta mined"
+scoreboard objectives add eo_MineTerrW minecraft.mined:minecraft.white_terracotta "White terracotta mined"
+scoreboard objectives add eo_MineTerrLG minecraft.mined:minecraft.light_gray_terracotta "Light gray terracotta mined"
+
 # AGGREGATES - Actively processed objectives
 scoreboard objectives add eo_MineOre dummy "Ore mined"
 scoreboard objectives add eo_MineStoneAll dummy "Stone mined"
+scoreboard objectives add eo_MineDirtAll dummy "Dirt mined"
+scoreboard objectives add eo_MineTerrAll dummy "Terracotta mined"
+scoreboard objectives add eo_MineSandAll dummy "Sand mined"
 
 # Actively processed objectives are disable by default
 # Current state is respected by repeat calls to this function
