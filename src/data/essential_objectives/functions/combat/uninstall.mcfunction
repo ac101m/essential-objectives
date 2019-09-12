@@ -80,13 +80,15 @@ scoreboard objectives remove eo_TakeDamage
 scoreboard objectives remove eo_RaidTrigger
 scoreboard objectives remove eo_RaidWin
 
+# TOTAL KILLS - Base objective
+scoreboard objectives remove eo_Kills
+
 # Actively processed objectives
 scoreboard objectives remove eo_KillPassive
 scoreboard objectives remove eo_KillHostile
 scoreboard objectives remove eo_KillIllager
 scoreboard objectives remove eo_KillInnocent
 scoreboard objectives remove eo_BossKills
-scoreboard objectives remove eo_Kills
 
 # Remove active processing flag
 scoreboard objectives remove eo_EnCombat

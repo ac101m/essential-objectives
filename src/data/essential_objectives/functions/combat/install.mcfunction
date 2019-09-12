@@ -80,13 +80,15 @@ scoreboard objectives add eo_TakeDamage minecraft.custom:minecraft.damage_taken 
 scoreboard objectives add eo_RaidTrigger minecraft.custom:minecraft.raid_trigger "Trigger raid"
 scoreboard objectives add eo_RaidWin minecraft.custom:minecraft.raid_win "Win raid"
 
+# TOTAL KILLS - Base objective
+scoreboard objectives add eo_Kills totalKillCount "Kills"
+
 # Actively processed objectives
 scoreboard objectives add eo_KillPassive dummy "Passive kills"
 scoreboard objectives add eo_KillHostile dummy "Hostile kills"
 scoreboard objectives add eo_KillIllager dummy "Illager kills"
 scoreboard objectives add eo_KillInnocent dummy "You monster!"
 scoreboard objectives add eo_BossKills dummy "Boss kills"
-scoreboard objectives add eo_Kills dummy "Kills"
 
 # Actively processed objectives are disable by default
 # Current state is respected by repeat calls to this function

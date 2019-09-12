@@ -75,8 +75,3 @@ scoreboard players operation @a eo_KillHostile += @a eo_KillWSkeleton
 scoreboard players operation @a eo_KillHostile += @a eo_KillZombie
 scoreboard players operation @a eo_KillHostile += @a eo_KillZPigman
 scoreboard players operation @a eo_KillHostile += @a eo_KillZVillager
-
-# Kills total
-scoreboard players operation @a eo_Kills = @a eo_KillPassive
-scoreboard players operation @a eo_Kills += @a eo_KillHostile
-scoreboard players operation @a eo_Kills += @a eo_KillPlayer
