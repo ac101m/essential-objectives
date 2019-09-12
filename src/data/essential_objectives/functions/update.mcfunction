@@ -8,3 +8,4 @@ execute if score #eo_DummyPlayer eo_EnTravel matches 1 run function essential_ob
 execute if score #eo_DummyPlayer eo_EnCombat matches 1 run function essential_objectives:combat/update
 execute if score #eo_DummyPlayer eo_EnRedstone matches 1 run function essential_objectives:redstone/update
 execute if score #eo_DummyPlayer eo_EnTools matches 1 run function essential_objectives:tools/update
+execute if score #eo_DummyPlayer eo_EnMisc matches 1 run function essential_objectives:misc/update

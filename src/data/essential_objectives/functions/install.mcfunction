@@ -12,3 +12,4 @@ function essential_objectives:travel/install
 function essential_objectives:combat/install
 function essential_objectives:redstone/install
 function essential_objectives:tools/install
+function essential_objectives:misc/install
