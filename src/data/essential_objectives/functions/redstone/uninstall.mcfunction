@@ -7,7 +7,7 @@ scoreboard objectives remove eo_CraftRTorch
 scoreboard objectives remove eo_CraftRLamp
 scoreboard objectives remove eo_CraftDSensor
 scoreboard objectives remove eo_CraftPiston
-scoreboard objectives remove eo_CraftSPiston
+scoreboard objectives remove eo_CraftPistonS
 scoreboard objectives remove eo_CraftComp
 scoreboard objectives remove eo_CraftRepeater
 scoreboard objectives remove eo_CraftDisp
@@ -17,34 +17,34 @@ scoreboard objectives remove eo_CraftDropper
 scoreboard objectives remove eo_CraftLever
 
 # PRESSURE PLATES - Base objectives
-scoreboard objectives remove eo_CraftHPlate
-scoreboard objectives remove eo_CraftLPlate
-scoreboard objectives remove eo_CraftSPlate
-scoreboard objectives remove eo_CraftOWPlate
-scoreboard objectives remove eo_CraftSWPlate
-scoreboard objectives remove eo_CraftBWPlate
-scoreboard objectives remove eo_CraftJWPlate
-scoreboard objectives remove eo_CraftAWPlate
-scoreboard objectives remove eo_CraftDWPlate
+scoreboard objectives remove eo_CraftPPlateH
+scoreboard objectives remove eo_CraftPPlateL
+scoreboard objectives remove eo_CraftPPlateS
+scoreboard objectives remove eo_CraftPPlateOW
+scoreboard objectives remove eo_CraftPPlateSW
+scoreboard objectives remove eo_CraftPPlateBW
+scoreboard objectives remove eo_CraftPPlateJW
+scoreboard objectives remove eo_CraftPPlateAW
+scoreboard objectives remove eo_CraftPPlateDW
 
 # BUTTONS - Base objectives
-scoreboard objectives remove eo_CraftSPlate
-scoreboard objectives remove eo_CraftOWPlate
-scoreboard objectives remove eo_CraftSWPlate
-scoreboard objectives remove eo_CraftBWPlate
-scoreboard objectives remove eo_CraftJWPlate
-scoreboard objectives remove eo_CraftAWPlate
-scoreboard objectives remove eo_CraftDWPlate
+scoreboard objectives remove eo_CraftBtnS
+scoreboard objectives remove eo_CraftBtnOW
+scoreboard objectives remove eo_CraftBtnSW
+scoreboard objectives remove eo_CraftBtnBW
+scoreboard objectives remove eo_CraftBtnJW
+scoreboard objectives remove eo_CraftBtnAW
+scoreboard objectives remove eo_CraftBtnDW
 
 # RAILS CRAFTED - Base objectives
 scoreboard objectives remove eo_CraftRail
-scoreboard objectives remove eo_CraftPRail
-scoreboard objectives remove eo_CraftARail
-scoreboard objectives remove eo_CraftDRail
+scoreboard objectives remove eo_CraftRailP
+scoreboard objectives remove eo_CraftRailA
+scoreboard objectives remove eo_CraftRailD
 
 # WOODEN ITEM TOTALS - Actively updated
-scoreboard objectives remove eo_CraftWPlate
-scoreboard objectives remove eo_CraftWButton
+scoreboard objectives remove eo_CraftPPlateW
+scoreboard objectives remove eo_CraftBtnW
 
 # TOTALS - Actively updated
 scoreboard objectives remove eo_CraftRailAll
