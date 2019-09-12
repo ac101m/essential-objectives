@@ -6,7 +6,7 @@
 scoreboard objectives remove eo_Deaths
 
 # CUSTOM - Base objectives
-scoreboard objectives remove eo_BellsRung
+scoreboard objectives remove eo_RingBell
 scoreboard objectives remove eo_Jumps
 scoreboard objectives remove eo_BreedAnimal
 scoreboard objectives remove eo_PotFlower

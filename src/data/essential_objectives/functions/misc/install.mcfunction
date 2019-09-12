@@ -6,7 +6,7 @@
 scoreboard objectives add eo_Deaths deathCount "Deaths"
 
 # CUSTOM - Base objectives
-scoreboard objectives add eo_BellsRung minecraft.custom:minecraft.bell_ring "Bells rung"
+scoreboard objectives add eo_RingBell minecraft.custom:minecraft.bell_ring "Bells rung"
 scoreboard objectives add eo_Jumps minecraft.custom:minecraft.jump "Jumps"
 scoreboard objectives add eo_BreedAnimal minecraft.custom:minecraft.animals_bred "Animals bred"
 scoreboard objectives add eo_PotFlower minecraft.custom:minecraft.pot_flower "Flowers potted"
