@@ -15,6 +15,7 @@ scoreboard players operation @a eo_DistFootCm += @a eo_CrouchCm
 scoreboard players operation @a eo_DistRideCm = @a eo_RidePigCm
 scoreboard players operation @a eo_DistRideCm += @a eo_RideCartCm
 scoreboard players operation @a eo_DistRideCm += @a eo_RideHorseCm
+scoreboard players operation @a eo_DistRideCm += @a eo_RideBoatCm
 
 # Distance on foot - kilometres
 scoreboard players operation @a eo_DistFootKm = @a eo_DistFootCm
@@ -39,6 +40,8 @@ scoreboard players operation @a eo_RideHorseKm = @a eo_RideHorseCm
 scoreboard players operation @a eo_RideHorseKm /= #100000 eo_Constants
 scoreboard players operation @a eo_RideCartKm = @a eo_RideCartCm
 scoreboard players operation @a eo_RideCartKm /= #100000 eo_Constants
+scoreboard players operation @a eo_RideBoatKm = @a eo_RideBoatCm
+scoreboard players operation @a eo_RideBoatKm /= #100000 eo_Constants
 scoreboard players operation @a eo_RidePigKm = @a eo_RidePigCm
 scoreboard players operation @a eo_RidePigKm /= #100000 eo_Constants
 scoreboard players operation @a eo_SprintKm = @a eo_SprintCm

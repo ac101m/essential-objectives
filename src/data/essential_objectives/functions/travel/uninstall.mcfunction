@@ -10,6 +10,7 @@ scoreboard objectives remove eo_FallCm
 scoreboard objectives remove eo_FlyCm
 scoreboard objectives remove eo_RideHorseCm
 scoreboard objectives remove eo_RideCartCm
+scoreboard objectives remove eo_RideBoatCm
 scoreboard objectives remove eo_RidePigCm
 scoreboard objectives remove eo_SprintCm
 scoreboard objectives remove eo_SwimCm
@@ -25,6 +26,7 @@ scoreboard objectives remove eo_FallKm
 scoreboard objectives remove eo_FlyKm
 scoreboard objectives remove eo_RideHorseKm
 scoreboard objectives remove eo_RideCartKm
+scoreboard objectives remove eo_RideBoatKm
 scoreboard objectives remove eo_RidePigKm
 scoreboard objectives remove eo_SprintKm
 scoreboard objectives remove eo_SwimKm
