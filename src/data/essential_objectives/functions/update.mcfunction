@@ -7,3 +7,4 @@ execute if score #eo_DummyPlayer eo_EnMining matches 1 run function essential_ob
 execute if score #eo_DummyPlayer eo_EnTravel matches 1 run function essential_objectives:travel/update
 execute if score #eo_DummyPlayer eo_EnCombat matches 1 run function essential_objectives:combat/update
 execute if score #eo_DummyPlayer eo_EnRedstone matches 1 run function essential_objectives:redstone/update
+execute if score #eo_DummyPlayer eo_EnTools matches 1 run function essential_objectives:tools/update

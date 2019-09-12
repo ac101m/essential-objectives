@@ -11,3 +11,4 @@ function essential_objectives:mining/install
 function essential_objectives:travel/install
 function essential_objectives:combat/install
 function essential_objectives:redstone/install
+function essential_objectives:tools/install
