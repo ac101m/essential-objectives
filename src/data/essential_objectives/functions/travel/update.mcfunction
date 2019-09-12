@@ -12,9 +12,9 @@ scoreboard players operation @a eo_DistFootCm += @a eo_WalkUWaterCm
 scoreboard players operation @a eo_DistFootCm += @a eo_CrouchCm
 
 # Distance while riding things
-scoreboard players operation @a es_DistRideCm = @a eo_RidePigCm
-scoreboard players operation @a es_DistRideCm += @a eo_RideCartCm
-scoreboard players operation @a es_DistRideCm += @a eo_RideHorseCm
+scoreboard players operation @a eo_DistRideCm = @a eo_RidePigCm
+scoreboard players operation @a eo_DistRideCm += @a eo_RideCartCm
+scoreboard players operation @a eo_DistRideCm += @a eo_RideHorseCm
 
 # Distance on foot - kilometres
 scoreboard players operation @a eo_DistFootKm = @a eo_DistFootCm
