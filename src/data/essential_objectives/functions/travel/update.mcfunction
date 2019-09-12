@@ -17,6 +17,14 @@ scoreboard players operation @a eo_DistRideCm += @a eo_RideCartCm
 scoreboard players operation @a eo_DistRideCm += @a eo_RideHorseCm
 scoreboard players operation @a eo_DistRideCm += @a eo_RideBoatCm
 
+# Total distance
+scoreboard players operation @a eo_DistCm = @a eo_DistRideCm
+scoreboard players operation @a eo_DistCm += @a eo_DistRideCm
+scoreboard players operation @a eo_DistCm += @a eo_DistFootCm
+scoreboard players operation @a eo_DistCm += @a eo_AviateCm
+scoreboard players operation @a eo_DistCm += @a eo_FallCm
+scoreboard players operation @a eo_DistCm += @a eo_SwimCm
+
 # Distance on foot - kilometres
 scoreboard players operation @a eo_DistFootKm = @a eo_DistFootCm
 scoreboard players operation @a eo_DistFootKm /= #100000 eo_Constants
@@ -24,6 +32,10 @@ scoreboard players operation @a eo_DistFootKm /= #100000 eo_Constants
 # Distance while riding things - kilometres
 scoreboard players operation @a eo_DistRideKm = @a es_DistRideCm
 scoreboard players operation @a eo_DistRideKm /= #100000 eo_Constants
+
+# Total distance - kilometres
+scoreboard players operation @a eo_DistKm = @a eo_DistCm
+scoreboard players operation @a eo_DistKm /= #100000 eo_Constants
 
 # Base objectives - kilometres
 scoreboard players operation @a eo_AviateKm = @a eo_AviateCm
