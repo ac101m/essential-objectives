@@ -10,3 +10,4 @@ scoreboard players set #100000 eo_Constants 100000
 function essential_objectives:mining/install
 function essential_objectives:travel/install
 function essential_objectives:combat/install
+function essential_objectives:redstone/install
