@@ -9,3 +9,4 @@ scoreboard players set #100000 eo_Constants 100000
 # Install all modules
 function essential_objectives:mining/install
 function essential_objectives:travel/install
+function essential_objectives:combat/install
