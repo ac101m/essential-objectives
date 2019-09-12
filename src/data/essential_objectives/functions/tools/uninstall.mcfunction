@@ -7,21 +7,21 @@ scoreboard objectives remove eo_CraftEnchant
 
 # DIAMOND - Base objectives
 # Crafted
-scoreboard objectives remove eo_CraftDPick
-scoreboard objectives remove eo_CraftDShovel
-scoreboard objectives remove eo_CraftDAxe
-scoreboard objectives remove eo_CraftDSword
-scoreboard objectives remove eo_CraftDHoe
+scoreboard objectives remove eo_CraftPickD
+scoreboard objectives remove eo_CraftShovelD
+scoreboard objectives remove eo_CraftAxeD
+scoreboard objectives remove eo_CraftSwordD
+scoreboard objectives remove eo_CraftHoeD
 # Broken
-scoreboard objectives remove eo_BreakDPick
-scoreboard objectives remove eo_BreakDShovel
-scoreboard objectives remove eo_BreakDAxe
-scoreboard objectives remove eo_BreakDSword
-scoreboard objectives remove eo_BreakDHoe
+scoreboard objectives remove eo_BreakPickD
+scoreboard objectives remove eo_BreakShovelD
+scoreboard objectives remove eo_BreakAxeD
+scoreboard objectives remove eo_BreakSwordD
+scoreboard objectives remove eo_BreakHoeD
 
 # DIAMOND - Aggregates
-scoreboard objectives remove eo_CraftDTool
-scoreboard objectives remove eo_BreakDTool
+scoreboard objectives remove eo_CraftToolD
+scoreboard objectives remove eo_BreakToolD
 
 # Remove active processing flag
 scoreboard objectives remove eo_EnTools
