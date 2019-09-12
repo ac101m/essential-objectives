@@ -51,7 +51,3 @@ scoreboard players operation @a eo_WalkUWaterKm = @a eo_WalkUWaterCm
 scoreboard players operation @a eo_WalkUWaterKm /= #100000 eo_Constants
 scoreboard players operation @a eo_WalkOWaterKm = @a eo_WalkOWaterCm
 scoreboard players operation @a eo_WalkOWaterKm /= #100000 eo_Constants
-
-# Total distances
-#scoreboard objectives remove eo_DistCm
-#scoreboard objectives remove eo_DistKm
