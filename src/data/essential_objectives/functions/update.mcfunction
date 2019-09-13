@@ -11,5 +11,5 @@ execute if score #eo_DummyPlayer eo_UpdateSeq matches 4 run execute if score #eo
 execute if score #eo_DummyPlayer eo_UpdateSeq matches 5 run execute if score #eo_DummyPlayer eo_EnMisc matches 1 run function essential_objectives:misc/update
 
 # Update the sequence counter (reset at 5)
-execute unless score #eo_DummyPlayer eo_UpdateSeq matches 5 run scoreboard players operation #eo_DummyPlayer eo_UpdateSeq += #1 eo_Constants
 execute if score #eo_DummyPlayer eo_UpdateSeq matches 5 run scoreboard players set #eo_DummyPlayer eo_UpdateSeq 0
+execute unless score #eo_DummyPlayer eo_UpdateSeq matches 5 run scoreboard players operation #eo_DummyPlayer eo_UpdateSeq += #1 eo_Constants
