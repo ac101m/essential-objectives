@@ -88,7 +88,7 @@ scoreboard objectives add eo_KillPassive dummy "Passive kills"
 scoreboard objectives add eo_KillHostile dummy "Hostile kills"
 scoreboard objectives add eo_KillIllager dummy "Illager kills"
 scoreboard objectives add eo_KillInnocent dummy "You monster!"
-scoreboard objectives add eo_BossKills dummy "Boss kills"
+scoreboard objectives add eo_KillBoss dummy "Boss kills"
 
 # Actively processed objectives are disable by default
 # Current state is respected by repeat calls to this function

@@ -88,7 +88,7 @@ scoreboard objectives remove eo_KillPassive
 scoreboard objectives remove eo_KillHostile
 scoreboard objectives remove eo_KillIllager
 scoreboard objectives remove eo_KillInnocent
-scoreboard objectives remove eo_BossKills
+scoreboard objectives remove eo_KillBoss
 
 # Remove active processing flag
 scoreboard objectives remove eo_EnCombat
