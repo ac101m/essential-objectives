@@ -48,8 +48,7 @@ scoreboard players operation @s eo_KillIllager += @s eo_KillRavager
 scoreboard players operation @s eo_KillIllager += @s eo_KillVind
 
 # Boss total
-scoreboard players operation @s eo_KillBoss = @s eo_KillEGuardian
-scoreboard players operation @s eo_KillBoss += @s eo_KillWither
+scoreboard players operation @s eo_KillBoss = @s eo_KillWither
 scoreboard players operation @s eo_KillBoss += @s eo_KillEndDragon
 
 # Hostile mob total (included illager total & boss total)
